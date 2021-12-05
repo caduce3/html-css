@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+p{
+    text-align: justify;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px;
+    width: 600px;
+    box-shadow: 5px 5px 15px #37AD90;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #50FACF;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+body{
+    background-image: linear-gradient(to right, #236E5B, #50FACF); 
+}
+
+a:hover{
+    background-color: rgb(255, 251, 0);
+}
+div{
+    text-align: center;
+}

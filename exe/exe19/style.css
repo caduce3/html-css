@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+body{
+    background-image: radial-gradient(circle, #FFD639, #313B2F);
+    
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    text-align: left;
+}
+
+p{
+    color: #050505;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+main{
+    background-color: #B0B6BA;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+
+h1#principal{
+    background-color: #FFD639;
+}
+
+.basico{
+    color: #3c805e;
+    font-size: 20px;
+}
+
+.intermediario{
+    color: #80793c;
+    font-size: 20px;
+}
+
+.avancado{
+    color: #803c3c;
+    font-size: 20px;
+}
