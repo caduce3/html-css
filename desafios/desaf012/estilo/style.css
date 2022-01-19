@@ -10,7 +10,7 @@ header {
     padding: 3% 3%;
     text-align: center;
 }
-a {
+header > a {
     text-decoration: none;
     color: white;
 }
