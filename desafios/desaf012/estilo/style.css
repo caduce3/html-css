@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 3% 3%;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 7vw;
+    padding-bottom: 2%;
+}
+#secao1 {
+    padding-top: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2em;
+    font-size: 3vw;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
