@@ -4,26 +4,50 @@
     margin: 0;
     padding: 0;
 }
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
 header {
     background-color: black;
     color: white;
     padding: 3% 3%;
     text-align: center;
 }
-header > a {
+header a, footer a {
     text-decoration: none;
     color: white;
 }
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 7vw;
-    padding-bottom: 2%;
+a:hover {
+    text-decoration: underline;
 }
-#secao1 {
-    padding-top: 5%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    line-height: 1.7em;
-    font-size: 3vw;
-    font-weight: bold;
-    padding-bottom: 5%;
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10vw;
+    padding-bottom: 2%;
+    font-variant: small-caps;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+.normal {
+    background-color: white;
+    color: black;
+}
+.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+section.imagem p {
+    background-color: rgba(0, 0, 0, 0.144);
+    width: 300px;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
