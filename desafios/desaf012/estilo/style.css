@@ -60,7 +60,8 @@ section {
     background-attachment: fixed;
 }
 section.imagem p {
-    background-color: rgba(0, 0, 0, 0.384);
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-color: rgba(0, 0, 0, 0.541);
     width: 300px;
 }
 footer {
